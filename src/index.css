@@ -1,0 +1,68 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+
+  --bg-primary: #1f4e79;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #2c2c2c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.menu-icon-container li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.bg-primary {
+  background-color: #1f4e79 !important;
+}
+
+.bg-secondary {
+  background-color: #e0e0e0 !important;
+}
+
+.bg-dark {
+  background-color: #2c2c2c !important;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.text-dark {
+  color: #2b2922 !important;
+}
+
+/* Customizam Bootstrap: */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
